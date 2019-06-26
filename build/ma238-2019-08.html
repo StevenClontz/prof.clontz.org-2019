@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2019-06-26T16:14:34Z    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>MA 238 - Differential Equations</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.11/pretext.js"></script><script src="https://pretextbook.org/js/0.11/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.2/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.2/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.2/toc.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.2/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.2/setcolors.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.2/features.css" rel="stylesheet" type="text/css">
+<script>var logged_in = false;
+var role = 'student';
+var guest_access = true;
+var login_required = false;
+var js_version = 0.11;
+</script>
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\newcommand{\tuple}[1]{\langle #1 \rangle}
+\newcommand{\mb}{\mathbb}
+\newcommand{\mc}{\mathcal}
+\newcommand{\cl}{\operatorname{cl}}
+\renewcommand{\int}{\operatorname{int}}
+\newcommand{\ext}{\operatorname{ext}}
+\newcommand{\bd}{\operatorname{bd}}
+\newcommand{\glb}{\operatorname{glb}}
+\newcommand{\lub}{\operatorname{lub}}
+\newcommand{\setBuilder}[2]{\left\{#1:#2\right\}}
+\newcommand{\setList}[1]{\left\{#1\right\}}
+\newcommand{\rMark}{{\Large\ast}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="index.html"><span class="title">prof.clontz.org</span></a></h1>
+<p class="byline">Steven Clontz</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="chapter-1.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="chapter-1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="part-2.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="chapter-1.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="chapter-1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="part-2.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link">
+<a href="frontmatter-1.html" data-scroll="frontmatter-1"><span class="title">Front Matter</span></a><ul><li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li></ul>
+</li>
+<li class="link"><a href="part-1.html" data-scroll="part-1"><span class="codenumber">I</span> <span class="title">Current/Upcoming Semesters</span></a></li>
+<li class="link">
+<a href="chapter-1.html" data-scroll="chapter-1"><span class="codenumber">1</span> <span class="title">2019 Fall</span></a><ul><li><a href="ma238-2019-08.html" data-scroll="ma238-2019-08" class="active">MA 238 - Differential Equations</a></li></ul>
+</li>
+<li class="link"><a href="part-2.html" data-scroll="part-2"><span class="codenumber">II</span> <span class="title">Previous Semesters</span></a></li>
+<li class="link"><a href="chapter-2.html" data-scroll="chapter-2"><span class="codenumber">2</span> <span class="title">Before 2019 Fall</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="ma238-2019-08"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.1</span> <span class="title">MA 238 - Differential Equations</span>
+</h2>
+<a href="ma238-2019-08.html" class="permalink">¶</a><section class="subsection" id="ma238-2019-08-quick-links"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.1</span> <span class="title">Quick Links</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-quick-links" class="permalink">¶</a><ul class="disc">
+<li id="li-1"><p id="p-4"><a class="external" href="calendar/" target="_blank">Calendar</a></p></li>
+<li id="li-2">
+<p id="p-5">Content:</p>
+<ul class="circle">
+<li id="li-3"><p id="p-6"><a class="external" href="readiness/" target="_blank">Readiness materials</a></p></li>
+<li id="li-4"><p id="p-7"><a class="external" href="standards/" target="_blank">Standards</a></p></li>
+<li id="li-5"><p id="p-8"><a class="external" href="https://mastr.clontz.org" target="_blank">Homework/Practice Exercises</a></p></li>
+<li id="li-6"><p id="p-9"><a class="external" href="/classes/2019/08/ma238/pdf/table.pdf" target="_blank">Integral/Transform Table</a></p></li>
+</ul>
+</li>
+<li id="li-7">
+<p id="p-10">Forms:</p>
+<ul class="circle">
+<li id="li-8"><p id="p-11"><a class="external" href="/classes/2019/08/ma238/pdf/revision-form.pdf" target="_blank">\(\rMark\) Revision</a></p></li>
+<li id="li-9"><p id="p-12"><a class="external" href="/classes/2019/08/ma238/pdf/office-form.pdf" target="_blank">Office Reassessment</a></p></li>
+<li id="li-10"><p id="p-13"><a class="external" href="pdf/project-form.pdf" target="_blank">Take-Home Project</a></p></li>
+</ul>
+</li>
+<li id="li-11">
+<p id="p-14">Apps:</p>
+<ul class="circle">
+<li id="li-12"><p id="p-15"><a class="external" href="https://drive.google.com" target="_blank">Google Drive</a></p></li>
+<li id="li-13"><p id="p-16"><a class="external" href="https://www.gradescope.com" target="_blank">Gradescope</a></p></li>
+</ul>
+</li>
+</ul></section><section class="subsection" id="ma238-2019-08-course-information"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.2</span> <span class="title">Course Information</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-course-information" class="permalink">¶</a><ul class="disc">
+<li id="li-14"><p id="p-17">Semester: 2019 Fall</p></li>
+<li id="li-15"><p id="p-18">Title: Differential Equations</p></li>
+<li id="li-16">
+<p id="p-19">Sections: MA 238-101</p>
+<ul class="circle">
+<li id="li-17"><p id="p-20">TR 9:30am-10:45am</p></li>
+<li id="li-18"><p id="p-21">MSPB 360</p></li>
+</ul>
+</li>
+<li id="li-19">
+<p id="p-22">Office Hours</p>
+<ul class="circle">
+<li id="li-20"><p id="p-23">TR 10:45am-01:45pm</p></li>
+<li id="li-21"><p id="p-24">MSPB 314</p></li>
+</ul>
+</li>
+</ul></section><section class="subsection" id="ma238-2019-08-course-content"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.3</span> <span class="title">Course Content</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-course-content" class="permalink">¶</a><p id="p-25">The course is split into four <em class="emphasis">Modules</em>, each of which is split into several <a class="external" href="standards/" target="_blank"><em class="emphasis">Standards</em></a> of learning.</p></section><section class="subsection" id="ma238-2019-08-textbook-and-resources"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.4</span> <span class="title">Textbook and Resources</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-textbook-and-resources" class="permalink">¶</a><p id="p-26">Much of the material for this course will be provided on the course website or uploaded to <a class="external" href="drive/" target="_blank">Google Drive</a>.</p>
+<p id="p-27">The textbook carried in the univeristy bookstore is available for reference, but will not be required. A free online respository of homework exercises will be provided instead.</p>
+<p id="p-28">The use of any calculator is allowed on assessments, as long as it does not support communication functionality or internet connectivity. You may also use the provided <a class="external" href="/classes/2019/08/ma238/pdf/table.pdf" target="_blank">Integral/Transform Table</a> (which will be more useful later in the course).</p></section><section class="subsection" id="ma238-2019-08-grading"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.5</span> <span class="title">Grading</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-grading" class="permalink">¶</a><p id="p-29">Grades in this course are determined based upon your mastery of the Course Standards. Each time you successfully demonstrate mastery of a Standard by correctly completing a relevant exercise/project, you will earn a <em class="emphasis">Mastery Mark ✓</em>. Up to two <em class="emphasis">✓</em> per Standard will be awarded for the 17 standards assessed in-class, and one <em class="emphasis">✓</em> per Standard will be awarded for the 9 assessed on take-home projects, for a maximum of 43 <em class="emphasis">✓</em>.</p>
+<p id="p-30">Letter grades are assigned based on how much content was learned by each student, measured by how many <em class="emphasis">✓</em> were earned.</p>
+<ul class="disc">
+<li id="li-22">
+<em class="emphasis">A</em>: <em class="emphasis">40✓</em>
+</li>
+<li id="li-23">
+<em class="emphasis">B</em>: <em class="emphasis">35✓</em>
+</li>
+<li id="li-24">
+<em class="emphasis">C</em>: <em class="emphasis">30✓</em>
+</li>
+<li id="li-25">
+<em class="emphasis">D</em>: <em class="emphasis">25✓</em>
+</li>
+</ul></section><section class="subsection" id="ma238-2019-08-student-data"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.6</span> <span class="title">Student Data</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-student-data" class="permalink">¶</a><p id="p-31">Grade data will be provided to students via regular printed progress reports. Students are also highly encouraged to opt-in to using the <a class="external" href="https://www.gradescope.com" target="_blank">Gradescope</a> platform to receive instant notficiation of assignment results via email and the web.</p></section><section class="subsection" id="ma238-2019-08-activeinactive-students"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.7</span> <span class="title">Active/Inactive Students</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-activeinactive-students" class="permalink">¶</a><p id="p-32">By default all students are considered <em class="emphasis">Active</em> in the course. However, students that meet any of the following criteria may be designated as <em class="emphasis">Inactive</em>:</p>
+<ul class="disc">
+<li id="li-26">Accumulating two unexcused absences within three weeks of each other.</li>
+<li id="li-27">Failing a Readiness Quiz.</li>
+<li id="li-28">Receiving excessive negative feedback on a Peer Evaluation Survey (or neglecting to complete it).</li>
+</ul>
+<p id="p-33">When a student meets any of these criteria, they will receive an email from the instructor with a list of requirements to maintain their Active status, along with a deadline. Inactive status may be returned to Active status at the discretion of the instructor.</p></section><section class="subsection" id="ma238-2019-08-teams"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.8</span> <span class="title">Teams</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-teams" class="permalink">¶</a><p id="p-34"><em class="emphasis">Teams</em> will be organized near the beginning of the semester. Much of our class meetings will be spent in teams completing activities related to the material, allowing students to master the course standards in an environment where they may discuss topics and ask questions freely with their peers and the instructor.</p>
+<p id="p-35">If any student from the class submits a request to the instructor by email to do so, a <em class="emphasis">Peer Evaluation Survey</em> will be conducted to allow teammates to provide anonymous feedback to each other.</p></section><section class="subsection" id="ma238-2019-08-attendance"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.9</span> <span class="title">Attendance</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-attendance" class="permalink">¶</a><p id="p-36">Attendance will be taken daily. Generally, only absences that have been previously approved by the instructor or that are related to a medical issue (with accompanying documentation from a medical professional) will be considered excused. All excused absences must be documented via email with the instructor.</p></section><section class="subsection" id="ma238-2019-08-readiness-assurance"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.10</span> <span class="title">Readiness Assurance</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-readiness-assurance" class="permalink">¶</a><p id="p-37">Periodically throughout the course, students will be given a <a class="external" href="readiness" target="_blank">list of materials</a> for review. Preparedness will then be assessed on a multiple-choice <em class="emphasis">Readiness Quiz</em>, first individually and then as a team. High scores reflect sufficient preparedness for the module, while low scores demonstrate a need for further review. A 70% average of both quizzes is required to pass this quiz. Students who do not pass the quiz will be given an opportunity to submit a full-response retake of the quiz to the instructor.</p></section><section class="subsection" id="ma238-2019-08-class-activities"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.11</span> <span class="title">Class Activities</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-class-activities" class="permalink">¶</a><p id="p-38">The instructor will introduce each course <a class="external" href="standards/" target="_blank">Standard</a>, providing theory, formulas, and examples. After this introduction, students will collaborate on one or more team activities similar to exercises that will be assigned for that standard. These should be completed by each team on the provided whiteboard, showing all details. Photos of this work will then be uploaded to Google Drive.</p></section><section class="subsection" id="ma238-2019-08-mastery-quizzes"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.12</span> <span class="title">Mastery Quizzes</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-mastery-quizzes" class="permalink">¶</a><p id="p-39">During most class days, Active students will be able to complete a short <em class="emphasis">Mastery Quiz</em>. Except for the standards assessed by take-home projects, each standard will appear on up to three Mastery Quizzes, at most once a week. A schedule of which standards are covered on each quiz is available on the <a class="external" href="calendar/" target="_blank">Calendar</a>. Inactive students will not receive credit for these quizzes.</p>
+<p id="p-40">In addition, all students (Active and Inactive) will be offered two 75-minute <em class="emphasis">Comprehensive Mastery Quizzes</em> and a 120-minute <em class="emphasis">Final Exam</em> that include exercises for every standard covered in the class to that date.</p>
+<p id="p-41">Quizzes are randomized and personalized for each student based upon their current progress; standards that have already been completely mastered by a student will not be assigned on the personalized quiz.</p>
+<section class="subsubsection" id="ma238-2019-08-marking-quizzes"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">1.1.12.1</span> <span class="title">Marking Quizzes</span>
+</h4>
+<a href="ma238-2019-08.html#ma238-2019-08-marking-quizzes" class="permalink">¶</a><p id="p-42">Each submitted solution will be marked as follows:</p>
+<ul class="disc">
+<li id="li-29">
+<em class="emphasis">Mastery Mark ✓</em>: The solution demonstrates complete mastery of the given standard.</li>
+<li id="li-30">
+<em class="emphasis">Revision Mark ✱</em>: The solution might demonstrate mastery of the given standard, but needs to be revised for clarity/accuracy.</li>
+<li id="li-31">
+<em class="emphasis">Issues Mark ⓘ</em>: The solution demonstrates partial understanding of the given standard, but has one or more issues that suggest that further study is required to develop complete mastery.</li>
+<li id="li-32">
+<em class="emphasis">✘</em>: The solution demonstrates negligible understanding of the given standard.</li>
+</ul>
+<p id="p-43">Only <em class="emphasis">✓</em> affect a student’s letter grade for the course; all other accumulated marks will be ignored at the end of the semester. So, a student who earns 35 <em class="emphasis">✓</em> and 3 <em class="emphasis">✘</em> throughout the semester will earn the same grade as a student who earns 35 <em class="emphasis">✓</em> and 300 <em class="emphasis">✘</em>.</p></section><section class="subsubsection" id="ma238-2019-08-revising-solutions"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">1.1.12.2</span> <span class="title">Revising Solutions</span>
+</h4>
+<a href="ma238-2019-08.html#ma238-2019-08-revising-solutions" class="permalink">¶</a><p id="p-44">A student may improve a solution marked as \(\rMark\) to <em class="emphasis">✓</em> by completing a <a class="external" href="/classes/2019/08/ma238/pdf/revision-form.pdf" target="_blank">Revision Form</a> outside of class and promptly submitting it in class, usually the following Tuesday.</p>
+<p id="p-45">This submission will be marked as usual, with at most one additional re-revision allowed in the case of a very minor mistake.</p></section></section><section class="subsection" id="ma238-2019-08-take-home-projects"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.13</span> <span class="title">Take-Home Projects</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-take-home-projects" class="permalink">¶</a><p id="p-46">As they are covered in class, take-home projects will be assigned for certain standards. These will only be marked as <em class="emphasis">✓</em>, <em class="emphasis">ⓘ</em>, or <em class="emphasis">✘</em>, but all submissions are allowed to be revised.</p>
+<p id="p-47">Each project has several due dates; the instructor will give feedback as soon as possible after each due date. All students who don’t receive mastery credit on a due date for whatever reason may submit for grading on the next due date. After (usually) three due dates, students must meet with the instructor during office hours to discuss further submissions, or submit a final revision at the final exam.</p></section><section class="subsection" id="ma238-2019-08-office-reassessments"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.14</span> <span class="title">Office Reassessments</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-office-reassessments" class="permalink">¶</a><p id="p-48">During office hours each week, Active students may take advantage of Office Reassessments. Students that meet the requirements given on the <a class="external" href="/classes/2019/08/ma238/pdf/office-form.pdf" target="_blank">Office Reassessment Form</a> will be given the opportunity to solve a new exercise for credit.</p>
+<p id="p-49">Students may earn at most two <em class="emphasis">✓</em> in this way each week. Availability for this opportunity may be more limited due to student demand later in the semester.</p></section><section class="subsection" id="ma238-2019-08-missed-quizzes"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.15</span> <span class="title">Missed Quizzes</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-missed-quizzes" class="permalink">¶</a><p id="p-50">Students that miss one or more Mastery Quizzes due to excused absences may choose to take a Makeup Quiz. These are offered around midsemester and near the end of the semester. These quizzes are comprehensive, but the number of responses the student may give is limited by the number of quizzes missed due to excused absences.</p></section><section class="subsection" id="ma238-2019-08-final-exam"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.16</span> <span class="title">Final Exam</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-final-exam" class="permalink">¶</a><p id="p-51">The <em class="emphasis">Final Exam</em> is the same format as a Comprehensive Mastery Quiz, except that students will have 120 minutes and no revisions will be allowed. Instead, up to four \(\rMark\) marks earned on the Final Exam will be automatically upgraded to <em class="emphasis">✓</em>.</p></section><section class="subsection" id="ma238-2019-08-academic-honesty"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.17</span> <span class="title">Academic Honesty</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-academic-honesty" class="permalink">¶</a><p id="p-52">Academic Honesty is defined in <a class="external" href="http://www.southalabama.edu/departments/academicaffairs/resources/policies/Student%20academic%20conduct%20policy-Final%20Version%20October%202014.pdf" target="_blank">USA’s Student Academic Conduct Policy</a>. Any student who is caught cheating will immediately lose credit for all earned <em class="emphasis">✓</em> throughout the entire semester, will become permanently Inactive in the course, and will have to take the remaining assessments by appointment in the instructor’s office. In addition, the incident will be reported to the university.</p>
+<p id="p-53">Any student who is caught cheating twice will automatically receive an F letter grade for the course.</p></section><section class="subsection" id="ma238-2019-08-usaonline-and-usa-course-policies"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.18</span> <span class="title">USAOnline and USA Course Policies</span>
+</h3>
+<a href="ma238-2019-08.html#ma238-2019-08-usaonline-and-usa-course-policies" class="permalink">¶</a><p id="p-54">The official syllabus for this course is available on USAOnline. <a class="external" href="https://www.southalabama.edu/departments/academicaffairs/resources/policies/additionalacademiccoursepolicies.pdf" target="_blank">USA’s Course Policies</a> apply to this course.</p></section></section></div></main>
+</div>
+<div class="login-link"><span id="loginlogout" class="login">login</span></div>
+<script src="https://pretextbook.org/js/0.11/login.js"></script>
+</body>
+</html>

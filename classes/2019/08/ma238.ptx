@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<section xml:id="ma238-2019-08">
+<title>MA 238 - Differential Equations</title>
+
+<subsection xml:id="ma238-2019-08-quick-links"><title>Quick Links</title>
+
+<ul>
+  <li><p><url href="calendar/">Calendar</url></p></li>
+  <li><p>Content:
+    <ul>
+      <li><p><url href="readiness/">Readiness materials</url></p></li>
+      <li><p><url href="standards/">Standards</url></p></li>
+      <li><p><url href="https://mastr.clontz.org">Homework/Practice Exercises</url></p></li>
+      <li><p><url href="/classes/2019/08/ma238/pdf/table.pdf">Integral/Transform Table</url></p></li>
+    </ul>
+  </p></li>
+  <li><p>Forms:
+    <ul>
+      <li><p><url href="/classes/2019/08/ma238/pdf/revision-form.pdf"><m>\rMark</m> Revision</url></p></li>
+      <li><p><url href="/classes/2019/08/ma238/pdf/office-form.pdf">Office Reassessment</url></p></li>
+      <li><p><url href="pdf/project-form.pdf">Take-Home Project</url></p></li>
+    </ul>
+  </p></li>
+  <li><p>Apps:
+    <ul>
+      <li><p><url href="https://drive.google.com">Google Drive</url></p></li>
+      <li><p><url href="https://www.gradescope.com">Gradescope</url></p></li>
+    </ul>
+  </p></li>
+</ul>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-course-information"><title>Course Information</title>
+
+<ul>
+  <li><p>Semester: 2019 Fall</p></li>
+  <li><p>Title: Differential Equations</p></li>
+  <li><p>Sections: MA 238-101
+    <ul>
+      <li><p>TR 9:30am-10:45am</p></li>
+      <li><p>MSPB 360</p></li>
+    </ul>
+  </p></li>
+  <li><p>Office Hours
+    <ul>
+      <li><p>TR 10:45am-01:45pm</p></li>
+      <li><p>MSPB 314</p></li>
+    </ul>
+  </p></li>
+</ul>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-course-content"><title>Course Content</title>
+
+<p>The course is split into four <em>Modules</em>, each of which is split into
+several <url href="standards/"><em>Standards</em></url> of learning.</p>
+
+</subsection>
+<subsection xml:id="ma238-2019-08-textbook-and-resources">
+<title>Textbook and Resources</title>
+
+<p>Much of the material for this course will be provided on the course website
+or uploaded to <url href="drive/">Google Drive</url>.</p>
+
+<p>The textbook carried in the univeristy bookstore is available for reference,
+but will not be required.
+A free online respository of homework exercises will be provided instead.</p>
+
+<p>The use of any calculator is allowed on assessments, 
+as long as it does not support communication
+functionality or internet connectivity. You may also use the provided
+<url href="/classes/2019/08/ma238/pdf/table.pdf">Integral/Transform Table</url> (which will be more useful
+later in the course).</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-grading">
+<title>Grading</title>
+
+<p>Grades in this course are determined based upon your mastery of the
+Course Standards. Each time you successfully demonstrate
+mastery of a Standard by correctly completing a relevant exercise/project, you will
+earn a <em>Mastery Mark ✓</em>. Up to two <em>✓</em> per Standard will be awarded
+for the 17 standards assessed in-class, and one <em>✓</em> per Standard will be awarded
+for the 9 assessed on take-home projects, for a maximum of 43 <em>✓</em>.</p>
+
+<p>Letter grades are assigned based on how much content was learned
+by each student, measured by how many <em>✓</em> were earned.</p>
+
+<ul>
+  <li><em>A</em>: <em>40✓</em></li>
+  <li><em>B</em>: <em>35✓</em></li>
+  <li><em>C</em>: <em>30✓</em></li>
+  <li><em>D</em>: <em>25✓</em></li>
+</ul>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-student-data">
+<title>Student Data</title>
+
+<p>Grade data will be provided to students via regular
+printed progress reports. Students are also highly encouraged to
+opt-in to using the <url href="https://www.gradescope.com">Gradescope</url> platform to receive instant
+notficiation of assignment results via email and the web.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-activeinactive-students">
+<title>Active/Inactive Students</title>
+
+<p>By default all students are considered <em>Active</em> in the course. However,
+students that meet any of the following criteria may be designated as
+<em>Inactive</em>:</p>
+
+<ul>
+  <li>Accumulating two unexcused absences within three weeks of each other.</li>
+  <li>Failing a Readiness Quiz.</li>
+  <li>Receiving excessive negative feedback on a Peer Evaluation Survey
+(or neglecting to complete it).</li>
+</ul>
+
+<p>When a student meets any of these criteria, they will receive an email 
+from the instructor with a list of requirements to maintain their Active status,
+along with a deadline. Inactive status may be returned to Active status
+at the discretion of the instructor.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-teams">
+<title>Teams</title>
+
+<p><em>Teams</em> will be organized near the beginning of the semester. Much of
+our class meetings will be spent in teams completing activities related
+to the material, allowing students to master the
+course standards in an environment where they may discuss topics and ask
+questions freely with their peers and the instructor.</p>
+
+<p>If any student from the class submits a request to the instructor 
+by email to do so, a
+<em>Peer Evaluation Survey</em> will be conducted to allow teammates to
+provide anonymous feedback to each other.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-attendance">
+<title>Attendance</title>
+
+<p>Attendance will be taken daily.
+Generally, only absences that have been previously approved by the
+instructor or that are related to a medical issue (with accompanying
+documentation from a medical professional) will be considered excused.
+All excused absences must be documented via email with the instructor.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-readiness-assurance">
+<title>Readiness Assurance</title>
+
+<p>Periodically throughout the course, students will be given a 
+<url href="readiness">list of materials</url> for review. Preparedness will then
+be assessed on a multiple-choice <em>Readiness
+Quiz</em>, first individually and then as a team.
+High scores reflect sufficient preparedness for the module, while low
+scores demonstrate a need for further review.
+A 70% average of both quizzes is required to pass this quiz.
+Students who do not pass the quiz will be given an opportunity to submit
+a full-response retake of the quiz to the instructor.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-class-activities">
+<title>Class Activities</title>
+
+<p>The instructor will introduce each course <url href="standards/">Standard</url>,
+providing theory, formulas, and examples. After this introduction,
+students will collaborate on one or more team activities similar to exercises
+that will be assigned for that standard.
+These should be completed by each team on the
+provided whiteboard, showing all details. Photos of this work will then be 
+uploaded to Google Drive.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-mastery-quizzes">
+<title>Mastery Quizzes</title>
+
+<p>During most class days,
+Active students will be able to complete a short <em>Mastery Quiz</em>.
+Except for the standards assessed by take-home projects,
+each standard will appear on up to three Mastery Quizzes,
+at most once a week.
+A schedule of which standards are covered on each quiz is available on
+the <url href="calendar/">Calendar</url>.
+Inactive students will not receive credit for these quizzes.</p>
+
+<p>In addition, all students (Active and Inactive) will
+be offered two 75-minute <em>Comprehensive Mastery Quizzes</em>
+and a 120-minute <em>Final Exam</em>
+that include exercises for every standard covered
+in the class to that date.</p>
+
+<p>Quizzes are randomized and personalized for each student based upon their
+current progress; standards that have already been completely mastered
+by a student will not be assigned on the personalized quiz.</p>
+
+<subsubsection xml:id="ma238-2019-08-marking-quizzes">
+<title>Marking Quizzes</title>
+
+<p>Each submitted solution will be marked as follows:</p>
+
+<ul>
+  <li><em>Mastery Mark ✓</em>:
+The solution demonstrates complete mastery of the given standard.</li>
+  <li><em>Revision Mark ✱</em>:
+The solution might demonstrate mastery of the given standard,
+but needs to be revised for clarity/accuracy.</li>
+  <li><em>Issues Mark ⓘ</em>:
+The solution demonstrates partial understanding of the given standard,
+but has one or more issues that suggest that further study is required to
+develop complete mastery.</li>
+  <li><em>✘</em>:
+The solution demonstrates negligible understanding of the given
+standard.</li>
+</ul>
+
+<p>Only <em>✓</em> affect a student’s letter grade for the course;
+all other accumulated marks will be ignored at the end of the semester.
+So, a student who earns 35 <em>✓</em> and 3 <em>✘</em> throughout the semester
+will earn the same grade
+as a student who earns 35 <em>✓</em> and 300 <em>✘</em>.</p>
+</subsubsection>
+
+<subsubsection xml:id="ma238-2019-08-revising-solutions">
+<title>Revising Solutions</title>
+
+<p>A student may improve a solution marked as <m>\rMark</m> to <em>✓</em> by completing a
+<url href="/classes/2019/08/ma238/pdf/revision-form.pdf">Revision Form</url> outside of class and promptly submitting
+it in class, usually the following Tuesday.</p>
+
+<p>This submission will be marked as usual, with at most one additional
+re-revision allowed in the case of a very minor mistake.</p>
+</subsubsection>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-take-home-projects">
+<title>Take-Home Projects</title>
+
+<p>As they are covered in class, take-home projects will
+be assigned for certain standards. 
+These will only be marked as <em>✓</em>,
+<em>ⓘ</em>, or <em>✘</em>, but all submissions are allowed to be revised.</p>
+
+<p>Each project has several due dates; the instructor will give feedback
+as soon as possible after each due date. All students who don’t receive
+mastery credit on a due date for whatever reason may submit for
+grading on the next due date. After (usually) three due dates, students
+must meet with the instructor during office hours to discuss further
+submissions, or submit a final revision at the final exam.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-office-reassessments">
+<title>Office Reassessments</title>
+
+<p>During office hours each week, Active students may take advantage of
+Office Reassessments. Students that meet the requirements given on the 
+<url href="/classes/2019/08/ma238/pdf/office-form.pdf">Office Reassessment Form</url> will be given the opportunity
+to solve a new exercise for credit.</p>
+
+<p>Students may earn at most two <em>✓</em> in this way each week.
+Availability for this opportunity may be more limited due to
+student demand later in the semester.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-missed-quizzes">
+<title>Missed Quizzes</title>
+
+<p>Students that miss one or more Mastery Quizzes due to excused
+absences may choose to take a Makeup Quiz. These are offered around
+midsemester and near the end of the semester. These quizzes are
+comprehensive, but the number of responses the student may give
+is limited by the number of quizzes missed due to excused absences.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-final-exam">
+<title>Final Exam</title>
+
+<p>The <em>Final Exam</em> is the same format as a Comprehensive Mastery Quiz,
+except that students will have 120 minutes and no revisions will be allowed.
+Instead, up to four <m>\rMark</m> marks earned on the Final Exam
+will be automatically upgraded to <em>✓</em>.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-academic-honesty">
+<title>Academic Honesty</title>
+
+<p>Academic Honesty is defined in
+<url href="http://www.southalabama.edu/departments/academicaffairs/resources/policies/Student%20academic%20conduct%20policy-Final%20Version%20October%202014.pdf">USA’s Student Academic Conduct Policy</url>.
+Any student who is caught
+cheating will immediately lose credit for all earned <em>✓</em>
+throughout the entire semester, will become permanently Inactive in the course,
+and will have to take the remaining assessments by appointment
+in the instructor’s office.
+In addition, the incident will be reported to the university.</p>
+
+<p>Any student who is caught cheating twice will automatically receive
+an F letter grade for the course.</p>
+</subsection>
+
+<subsection xml:id="ma238-2019-08-usaonline-and-usa-course-policies">
+<title>USAOnline and USA Course Policies</title>
+
+<p>The official syllabus for this course is available on
+USAOnline. 
+<url href="https://www.southalabama.edu/departments/academicaffairs/resources/policies/additionalacademiccoursepolicies.pdf">USA’s Course Policies</url> apply to this course.</p>
+</subsection>
+</section>

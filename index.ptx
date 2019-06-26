@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <docinfo>
+        <macros>
+          \newcommand{\tuple}[1]{\langle #1 \rangle}
+          \newcommand{\mb}{\mathbb}
+          \newcommand{\mc}{\mathcal}
+          \newcommand{\cl}{\operatorname{cl}}
+          \renewcommand{\int}{\operatorname{int}}
+          \newcommand{\ext}{\operatorname{ext}}
+          \newcommand{\bd}{\operatorname{bd}}
+          \newcommand{\glb}{\operatorname{glb}}
+          \newcommand{\lub}{\operatorname{lub}}
+          \newcommand{\setBuilder}[2]{\left\{#1:#2\right\}}
+          \newcommand{\setList}[1]{\left\{#1\right\}}
+          \newcommand{\rMark}{{\Large\ast}}
+        </macros>
+    </docinfo>
+
+    <book xml:id="index">
+        <title>prof.clontz.org</title>
+
+        <frontmatter>
+
+            <titlepage>
+                <author>
+                    <personname>Steven Clontz</personname>
+                    <institution>University of South Alabama</institution>
+                </author>
+                <date>Last updated <today /></date>
+            </titlepage>
+
+            <abstract>
+                <p>
+A website of materials for my courses.
+                </p>
+            </abstract>
+            <colophon>
+                <p>
+                  All rights reserved.
+                </p>
+                <p>
+                  Dr. Clontz's personal website is <url href="https://clontz.org"/>.
+                </p>
+            </colophon>
+<!--            <preface>
+              <p>
+TODO
+              </p>
+            </preface>-->
+
+        </frontmatter>
+<part><title>Current/Upcoming Semesters</title>
+<chapter><title>2019 Fall</title>
+<xi:include href="classes/2019/08/ma238.ptx" />
+</chapter>
+</part>
+<part><title>Previous Semesters</title>
+<chapter><title>Before 2019 Fall</title>
+<p>An archive of my materials before
+2019 Fall may be found at
+<url href="/classes/">my old classes page</url>.</p>
+</chapter>
+</part>
+</book>
+
+</pretext>
+
